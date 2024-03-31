@@ -37,6 +37,7 @@ const submitForm = async () => {
     blog.value.image
   );
   emit('update:EditModal', false);
+  location.reload();
 };
 </script>
 <template>
