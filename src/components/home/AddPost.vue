@@ -26,8 +26,8 @@ const submitForm = async () => {
     formData.value.date,
     formData.value.imageURL
   );
-  emit('update:addPostVisible', false);
   location.reload();
+  emit('update:addPostVisible', false);
 };
 
 const closeModal = () => {

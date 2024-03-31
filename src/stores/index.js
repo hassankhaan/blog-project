@@ -31,7 +31,6 @@ export const useBlogStore = defineStore({
         })
       });
       const newBlog = await response.json();
-      this.blogs(newBlog);
     },
     async deleteBlog(id) {
       await fetch(`https://retoolapi.dev/ZX1WUG/posts/${id}`, {
